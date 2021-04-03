@@ -25,10 +25,10 @@ Any individual could choose to use this app, the main target group is for indivi
 **Required Must-have Stories**
 
 - [x] User logs in to access friends and preference settings
-* User can see leaderboard
-* users can add friends
-* Profile pages for each user
-* Settings (Accesibility, Notification, General, etc.)
+- [ ] User can see leaderboard
+- [ ]  users can add friends
+- [ ]  Profile pages for each user
+- [ ]  Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
