@@ -37,18 +37,18 @@ Any individual could choose to use this app, the main target group is for indivi
 
 ### 2. Screen Archetypes
 
-* Login 
-* Register - User signs up or logs into their account
+[x] Login 
+[x] Register - User signs up or logs into their account
    * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information. 
-* Main screen - gives option to the users
+[x] Main screen - gives option to the users
     * users can click on leaderboard or set a goal to be achieved
-* Work screen - screen that shows up when the person would be working
+[x] Work screen - screen that shows up when the person would be working
     * It will display the timer with the growth of the tree
-* Profile Screen 
+[] Profile Screen 
    * Allows user to upload a photo and fill in information that is interesting to them and others
-* Leaderboard Screen.
+[] Leaderboard Screen.
    * Allows user to compete and see the points of their friends
-* Settings Screen
+[] Settings Screen
    * Lets people change language, and app notification settings.
 
 ### 3. Navigation
