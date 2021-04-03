@@ -70,6 +70,8 @@ Any individual could choose to use this app, the main target group is for indivi
 
 ## Wireframes
 <img src="https://i.imgur.com/YpvqCCN.jpg" width=800><br>
+<img src="http://g.recordit.co/tlKU3Bl2TS.gif" width=800><br>
+
 
 
 ## Schema 
