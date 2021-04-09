@@ -1,16 +1,14 @@
 //
-//  FeedViewController.swift
+//  AddFriendsViewController.swift
 //  GreenScreen
 //
-//  Created by Aditya Majumdar on 03/04/21.
+//  Created by Kevin Lin on 4/9/21.
 //
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class AddFriendsViewController: UIViewController {
 
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
