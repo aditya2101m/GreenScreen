@@ -112,6 +112,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Leaderboard" id="Laf-mV-ppR"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="gifImageView" destination="Gln-F2-jNO" id="Avu-C1-eat"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hqZ-P2-8UD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

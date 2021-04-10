@@ -8,6 +8,7 @@ target 'GreenScreen' do
   # Pods for GreenScreen
     pod 'Parse'
     pod 'AlamofireImage'
+    pod 'Gifu'
     
 
   target 'GreenScreenTests' do
