@@ -22,6 +22,8 @@
 		76F05C372620CCE600CBC484 /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F05C362620CCE600CBC484 /* AddFriendsViewController.swift */; };
 		7EDB1026928DB67AB156399B /* Pods_GreenScreen_GreenScreenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514FA9B6527216C8298B023F /* Pods_GreenScreen_GreenScreenUITests.framework */; };
 		8B2EAF062622321D00CD01A9 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2EAF052622321D00CD01A9 /* iOSDevCenters+GIF.swift */; };
+		8B2EAF122623826D00CD01A9 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2EAF112623826D00CD01A9 /* helper.swift */; };
+		8BA367112623C9AF008F9D37 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA367102623C9AF008F9D37 /* TimerViewController.swift */; };
 		A630EC6D262A8C51B43731FD /* Pods_GreenScreenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922B017FA16D4AF836F1AD4A /* Pods_GreenScreenTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		76F05C362620CCE600CBC484 /* AddFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
 		8517A031ED7E9BD2E3C4C43D /* Pods-GreenScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenScreen.debug.xcconfig"; path = "Target Support Files/Pods-GreenScreen/Pods-GreenScreen.debug.xcconfig"; sourceTree = "<group>"; };
 		8B2EAF052622321D00CD01A9 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = SOURCE_ROOT; };
+		8B2EAF112623826D00CD01A9 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		8BA367102623C9AF008F9D37 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		90FDCFC62BB64F3A7DE1AB12 /* Pods-GreenScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenScreenTests.release.xcconfig"; path = "Target Support Files/Pods-GreenScreenTests/Pods-GreenScreenTests.release.xcconfig"; sourceTree = "<group>"; };
 		922B017FA16D4AF836F1AD4A /* Pods_GreenScreenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenScreenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2994E5B059E30F0745CCB24 /* Pods-GreenScreen-GreenScreenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenScreen-GreenScreenUITests.debug.xcconfig"; path = "Target Support Files/Pods-GreenScreen-GreenScreenUITests/Pods-GreenScreen-GreenScreenUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		53106D432610FE030009D439 = {
 			isa = PBXGroup;
 			children = (
+				8B2EAF112623826D00CD01A9 /* helper.swift */,
 				53106D4E2610FE030009D439 /* GreenScreen */,
 				53106D652610FE050009D439 /* GreenScreenTests */,
 				53106D702610FE050009D439 /* GreenScreenUITests */,
@@ -131,6 +136,7 @@
 				53106D552610FE030009D439 /* Main.storyboard */,
 				8B2EAF052622321D00CD01A9 /* iOSDevCenters+GIF.swift */,
 				53106D582610FE050009D439 /* Assets.xcassets */,
+				8BA367102623C9AF008F9D37 /* TimerViewController.swift */,
 				53106D5A2610FE050009D439 /* LaunchScreen.storyboard */,
 				53106D5D2610FE050009D439 /* Info.plist */,
 				53669D8B2618F47B003EF161 /* LoginViewController.swift */,
@@ -421,8 +427,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA367112623C9AF008F9D37 /* TimerViewController.swift in Sources */,
 				53669D8C2618F47B003EF161 /* LoginViewController.swift in Sources */,
 				8B2EAF062622321D00CD01A9 /* iOSDevCenters+GIF.swift in Sources */,
+				8B2EAF122623826D00CD01A9 /* helper.swift in Sources */,
 				53106D502610FE030009D439 /* AppDelegate.swift in Sources */,
 				76F05C322620CCDA00CBC484 /* ChangeProfileViewController.swift in Sources */,
 				53669D912618F497003EF161 /* FeedViewController.swift in Sources */,

@@ -7,12 +7,16 @@
 
 import UIKit
 import Gifu
-
+import NotificationCenter
+import SwiftUI
 
 class FeedViewController: UIViewController {
     
     @IBOutlet weak var gifImageView: UIImageView!
     
+
+    
+
     override func viewDidLoad() {
         let gifURL : String = "https://media.giphy.com/media/l1J3NPQf42bgLV3Bm/giphy.gif"
         let imageURL = UIImage.gifImageWithURL(gifURL)
