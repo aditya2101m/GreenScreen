@@ -152,19 +152,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwY-Zd-Z8L">
-                                <rect key="frame" x="84" y="406" width="77" height="56"/>
+                                <rect key="frame" x="169" y="393" width="77" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="startButton:" destination="4c5-Vq-tHD" eventType="touchUpInside" id="Dni-dw-uM1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyD-Cc-pCw">
-                                <rect key="frame" x="296" y="408" width="46" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pause"/>
-                                <connections>
-                                    <action selector="pauseButton:" destination="4c5-Vq-tHD" eventType="touchUpInside" id="hrT-nI-4lC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -173,7 +165,6 @@
                     </view>
                     <connections>
                         <outlet property="datePicker" destination="kMJ-HM-7vZ" id="un7-tE-ood"/>
-                        <outlet property="pauseResetButton" destination="hyD-Cc-pCw" id="3r3-tJ-5eL"/>
                         <outlet property="startstopButton" destination="GwY-Zd-Z8L" id="VXy-j5-M9w"/>
                         <outlet property="timeLabel" destination="kqo-BS-Ok7" id="1Lx-RN-mdA"/>
                     </connections>

@@ -23,7 +23,6 @@ class TimerViewController: UIViewController {
     
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var datePicker: UIDatePicker!
-    @IBOutlet weak var pauseResetButton: UIButton!
     @IBOutlet weak var startstopButton: UIButton!
     
     
@@ -63,15 +62,15 @@ class TimerViewController: UIViewController {
             audioPlayer.currentTime = 0
             timeLabel.alpha = 0
             startstopButton.setTitle("Start", for: .normal)
-            pauseResetButton.setTitle("Pause", for: .normal)
-            pauseResetButton.isEnabled = false
+            //pauseResetButton.setTitle("Pause", for: .normal)
+            //pauseResetButton.isEnabled = false
             timer?.invalidate()
             timer = nil
         } else {
             
             timeLabel.alpha = 1
             startstopButton.setTitle("Reset", for: .normal)
-            pauseResetButton.isEnabled = true
+            //pauseResetButton.isEnabled = true
             if timer == nil {
                 timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
             }
@@ -90,27 +89,9 @@ class TimerViewController: UIViewController {
             timer = nil
             timeLabel.alpha = 0
             startstopButton.setTitle("Start", for: .normal)
-            pauseResetButton.isEnabled = false
+            //pauseResetButton.isEnabled = false
         }
     }
     
-    @IBAction func pauseButton(_ sender: Any) {
-        
-        if isPaused == false {
-            timer?.invalidate()
-            timer = nil
-            pauseResetButton.setTitle("Resume", for: .normal)
-            
-        } else {
-            if (timer != nil){
-                timer?.invalidate()
-                timer = nil
-            }
-            
-            timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
-            pauseResetButton.setTitle("Pause", for: .normal)
-            
-        }
-        isPaused = !isPaused
-    }
+    
 }
