@@ -7,6 +7,7 @@
 
 import UIKit
 import Gifu
+import Parse
 
 
 class FeedViewController: UIViewController {
