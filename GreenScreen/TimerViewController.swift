@@ -18,10 +18,13 @@ class TimerViewController: UIViewController {
     private var secondsCount = 0
     private var timer: Timer?
     
-    @IBOutlet weak var pauseResetButton: UIButton!
-    @IBOutlet weak var startstopButton: UIButton!
+
+    
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var datePicker: UIDatePicker!
+    @IBOutlet weak var pauseResetButton: UIButton!
+    @IBOutlet weak var startstopButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +33,9 @@ class TimerViewController: UIViewController {
         
         
     }
+    
     @IBAction func startButton(_ sender: Any) {
+        
         let duration = datePicker.countDownDuration
         seconds = 0
         hours = Int(duration/3600)
@@ -54,7 +59,6 @@ class TimerViewController: UIViewController {
             }
         }
         isTimerRunning = !isTimerRunning
-        
     }
     
     @objc func updateTimer() {
@@ -91,5 +95,4 @@ class TimerViewController: UIViewController {
         }
         isPaused = !isPaused
     }
-    
 }
