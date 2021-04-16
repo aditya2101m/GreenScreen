@@ -60,6 +60,7 @@ class TimerViewController: UIViewController {
         
         if isTimerRunning == true {      // here we can add the mp3 track
             audioPlayer.stop()
+            audioPlayer.currentTime = 0
             timeLabel.alpha = 0
             startstopButton.setTitle("Start", for: .normal)
             pauseResetButton.setTitle("Pause", for: .normal)
