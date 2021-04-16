@@ -39,7 +39,7 @@ class TimerViewController: UIViewController {
         let duration = datePicker.countDownDuration
         seconds = 0
         hours = Int(duration/3600)
-        minutes = Int(duration - Double((hours*3600)/60))
+        minutes = Int(duration - Double((hours*3600)))/60
         secondsCount = ((hours * 3600) + (minutes * 60))
         timeLabel.text = String(format: "%02i:%02i:%02i", hours, minutes, seconds)
         
@@ -64,8 +64,8 @@ class TimerViewController: UIViewController {
     @objc func updateTimer() {
         secondsCount -= 1
         hours = secondsCount / 3600
-        minutes = secondsCount / 60
-        seconds = secondsCount - (minutes * 60)
+        minutes = secondsCount / 60 - hours*60
+        seconds = secondsCount - (minutes * 60) - hours*3600
         timeLabel.text = String(format: "%02i:%02i:%02i", hours, minutes, seconds)
         if secondsCount <= 0 {
             timer!.invalidate()
