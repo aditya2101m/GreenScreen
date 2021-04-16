@@ -7,8 +7,8 @@
 
 import UIKit
 import Gifu
-import NotificationCenter
-import SwiftUI
+import Parse
+
 
 class FeedViewController: UIViewController {
     

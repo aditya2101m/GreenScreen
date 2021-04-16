@@ -19,16 +19,12 @@ class ChangeProfileViewController: UIViewController, UIImagePickerControllerDele
     }
         
     @IBAction func onSubmitButton(_ sender: Any) {
-        let profilePic = PFObject(className: "ProfilePicture")
-
-        profilePic["author"] = PFUser.current()!
-            
+        let user = PFUser.current()!
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(data: imageData!)
+        user["profilePic"] = file
             
-        profilePic["image"] = file
-            
-        profilePic.saveInBackground { (success, error) in
+        user.saveInBackground { (success, error) in
             if success {
                 self.dismiss(animated: true, completion: nil)
                 print("saved!")

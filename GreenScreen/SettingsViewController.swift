@@ -14,14 +14,25 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var userProfilePic: UIImageView!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var changeProfileButton: UIButton!
-    @IBOutlet weak var addFriendsButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let user = PFUser.current()
+        let profilePicture = user!["profilePic"] as? PFFileObject
+        profilePicture?.getDataInBackground(block: { (imageData, error) in
+            DispatchQueue.main.async {
+                if imageData != nil, error == nil{
+                    let image = UIImage(data: imageData!)
+                    self.userProfilePic.image = image
+                }
+            }
+        })
+
+        userName.text = user?["username"] as! String
     }
-    
+
     
 @IBAction func onLogoutButton(_ sender: Any) {
     PFUser.logOut()
