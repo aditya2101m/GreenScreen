@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31F8FCA8FDDBCD4B9B7944BA /* Pods_GreenScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD04A2F9E89EF7C3B89EEF5 /* Pods_GreenScreen.framework */; };
+		44B26249262A3E170099CBCA /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44B26248262A3E170099CBCA /* C.mp3 */; };
 		53106D502610FE030009D439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53106D4F2610FE030009D439 /* AppDelegate.swift */; };
 		53106D522610FE030009D439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53106D512610FE030009D439 /* SceneDelegate.swift */; };
 		53106D572610FE030009D439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53106D552610FE030009D439 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		238073A4EFA58E73B4C7FDB1 /* Pods-GreenScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenScreen.release.xcconfig"; path = "Target Support Files/Pods-GreenScreen/Pods-GreenScreen.release.xcconfig"; sourceTree = "<group>"; };
+		44B26248262A3E170099CBCA /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
 		514FA9B6527216C8298B023F /* Pods_GreenScreen_GreenScreenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenScreen_GreenScreenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53106D4C2610FE030009D439 /* GreenScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53106D4F2610FE030009D439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		53106D432610FE030009D439 = {
 			isa = PBXGroup;
 			children = (
+				44B26248262A3E170099CBCA /* C.mp3 */,
 				8B2EAF112623826D00CD01A9 /* helper.swift */,
 				53106D4E2610FE030009D439 /* GreenScreen */,
 				53106D652610FE050009D439 /* GreenScreenTests */,
@@ -296,6 +299,7 @@
 			files = (
 				53106D5C2610FE050009D439 /* LaunchScreen.storyboard in Resources */,
 				53106D592610FE050009D439 /* Assets.xcassets in Resources */,
+				44B26249262A3E170099CBCA /* C.mp3 in Resources */,
 				53106D572610FE030009D439 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

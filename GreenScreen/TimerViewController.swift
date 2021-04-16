@@ -6,9 +6,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class TimerViewController: UIViewController {
-    
+    var audioPlayer = AVAudioPlayer()
     
     private var isTimerRunning = false
     private var isPaused = false
@@ -30,11 +31,25 @@ class TimerViewController: UIViewController {
         super.viewDidLoad()
         isTimerRunning = false
         isPaused = false
+        let music = Bundle.main.path(forResource: "C", ofType: "mp3")
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: music! ))
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.ambient)
+            try AVAudioSession.sharedInstance().setActive(true)
+        }
+        catch{
+            print(error)
+        }
+        
+        
         
         
     }
     
     @IBAction func startButton(_ sender: Any) {
+        
+        audioPlayer.play()
+        
         
         let duration = datePicker.countDownDuration
         seconds = 0
@@ -44,6 +59,7 @@ class TimerViewController: UIViewController {
         timeLabel.text = String(format: "%02i:%02i:%02i", hours, minutes, seconds)
         
         if isTimerRunning == true {      // here we can add the mp3 track
+            audioPlayer.stop()
             timeLabel.alpha = 0
             startstopButton.setTitle("Start", for: .normal)
             pauseResetButton.setTitle("Pause", for: .normal)
@@ -51,6 +67,7 @@ class TimerViewController: UIViewController {
             timer?.invalidate()
             timer = nil
         } else {
+            
             timeLabel.alpha = 1
             startstopButton.setTitle("Reset", for: .normal)
             pauseResetButton.isEnabled = true
