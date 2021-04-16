@@ -18,10 +18,10 @@ class FeedViewController: UIViewController {
     
 
     override func viewDidLoad() {
-        let gifURL : String = "https://media.giphy.com/media/l1J3NPQf42bgLV3Bm/giphy.gif"
+        let gifURL : String = "https://media.giphy.com/media/uCN46U7nqlwnibPN0I/giphy.gif"
         let imageURL = UIImage.gifImageWithURL(gifURL)
         let imageView3 = UIImageView(image: imageURL)
-        imageView3.frame = CGRect(x: 0, y: 80, width: self.view.frame.size.width - 0, height: 380)
+        imageView3.frame = CGRect(x: 12, y: 80, width: self.view.frame.size.width - 0, height: 380)
         view.addSubview(imageView3)
     }
     
