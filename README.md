@@ -49,7 +49,7 @@ Any individual could choose to use this app, the main target group is for indivi
 * Leaderboard Screen.
    * Allows user to compete and see the points of their friends
 * Settings Screen
-   * Lets people change language, and app notification settings.
+   * Lets people change language, and app notification settings. Users can change their profile pictures and password. 
 
 ### 3. Navigation
 
