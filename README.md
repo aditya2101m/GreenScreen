@@ -67,6 +67,12 @@ Any individual could choose to use this app, the main target group is for indivi
 * Forced Log-in -> Account creation if no log in is available
 * Main Screen (User can set timer) -> Jumps to Setting, Leaderboard and Work Screen
 * Settings -> Toggle settings, add friends (Jumps to add friend screen), change profile picture (Jumps to Change Profile Screen)
+* 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/Uhl0dslZxA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Wireframes
 <img src="https://i.imgur.com/YpvqCCN.jpg" width=800><br>
