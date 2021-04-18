@@ -26,8 +26,8 @@ Any individual could choose to use this app, the main target group is for indivi
 
 - [x] User logs in to access friends and preference settings
 - [ ] User can see leaderboard
-- [ ]  users can add friends
-- [ ]  Profile pages for each user
+- [x]  users can change password
+- [x]  Profile pages for each user
 - [X]  Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
@@ -69,12 +69,10 @@ Any individual could choose to use this app, the main target group is for indivi
 * Settings -> Toggle settings, add friends (Jumps to add friend screen), change profile picture (Jumps to Change Profile Screen)
 
 ## Wireframes
-<img src='https://i.imgur.com/dg2rELQ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src="https://i.imgur.com/YpvqCCN.jpg" width=800><br>
 <img src="http://g.recordit.co/tlKU3Bl2TS.gif" width=200><br>
 <img src="https://media.giphy.com/media/w2wp6r5A6HRjuBgISp/giphy.gif" width=300><br>
-
-
+<img src="https://i.imgur.com/H8ylaAZ.gif" width=200><br>
 
 
 ## Schema 
