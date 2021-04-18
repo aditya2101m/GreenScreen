@@ -119,9 +119,6 @@
                                 <segue destination="CxL-56-Wpu" kind="presentation" id="wbr-2w-xrg"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Leaderboard" id="Laf-mV-ppR">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="gifImageView" destination="Gln-F2-jNO" id="Avu-C1-eat"/>
