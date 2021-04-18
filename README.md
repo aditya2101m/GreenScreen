@@ -24,16 +24,16 @@ Any individual could choose to use this app, the main target group is for indivi
 
 **Required Must-have Stories**
 
-- [x] User logs in to access friends and preference settings
-- [ ] User can see leaderboard
-- [x]  users can change password
-- [x]  Profile pages for each user
-- [X]  Settings (Accesibility, Notification, General, etc.)
+- [x] User logs in to access preference settings
+- [x] App will play a pleasent sound when timer is running
+- [x] users can change password
+- [x] Profile pages for each user
+- [X] Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
 * App will display a motivational quote after their time goal is achieved
-* App will play a pleasent sound when timer is running
+* User can see leaderboard
 
 ### 2. Screen Archetypes
 
@@ -66,7 +66,7 @@ Any individual could choose to use this app, the main target group is for indivi
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
 * Main Screen (User can set timer) -> Jumps to Setting, Leaderboard and Work Screen
-* Settings -> Toggle settings, add friends (Jumps to add friend screen), change profile picture (Jumps to Change Profile Screen)
+* Settings -> Toggle settings, change profile picture (Jumps to Change Profile Screen)
 * 
 ## Video Walkthrough
 
