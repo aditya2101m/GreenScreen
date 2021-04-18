@@ -69,9 +69,11 @@ Any individual could choose to use this app, the main target group is for indivi
 * Settings -> Toggle settings, add friends (Jumps to add friend screen), change profile picture (Jumps to Change Profile Screen)
 
 ## Wireframes
+<img src='https://i.imgur.com/dg2rELQ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src="https://i.imgur.com/YpvqCCN.jpg" width=800><br>
 <img src="http://g.recordit.co/tlKU3Bl2TS.gif" width=200><br>
 <img src="https://media.giphy.com/media/w2wp6r5A6HRjuBgISp/giphy.gif" width=300><br>
+
 
 
 
