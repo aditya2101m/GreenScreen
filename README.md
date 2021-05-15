@@ -7,7 +7,7 @@
 
 ## Overview
 ### Description
-An app that helps to implement the Pomodoro technique while working. It includes a scoreboard that lets the user keep track with other users' progress.
+An app that helps to implement the Pomodoro technique while working.
 
 
 ### App Evaluation
